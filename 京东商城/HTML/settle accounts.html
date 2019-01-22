@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车结算</title>
+    <link rel="stylesheet" href="../CSS/settle%20accounts.css">
+</head>
+<body>
+    <!--购物车结算-->
+    <div class="wrapper">
+        <!--头部导航栏-->
+        <div class="top-nav">
+            <div class="container">
+                <iframe src="JD-top.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+        <!--搜索栏-->
+        <div class="Search">
+            <div class="container">
+                <div class="JD-logo">
+                    <img src="../imgs/Login/logo-201305-b.png" alt="">
+                    <img src="../imgs/settle accounts/shopping-car.png" alt="">
+                </div>
+                <div class="search-wrapper">
+                    <input type="text" class="input-search" placeholder="自营">
+                    <input type="button" value="搜索" class="btn-search">
+                </div>
+            </div>
+        </div>
+
+
+        <!--商品分类-->
+        <div class="goods-type">
+            <div class="container">
+                <div class="goods-type-title">
+                    <ul class="ul-goods-type">
+                        <li class="li-goods-type">
+                            <span class="all-goods">全部商品</span>
+                            <span class="goods-count">1</span>
+                        </li>
+                        <li class="li-goods-type">
+                            <span class="JD-drugstore">京东大药房</span>
+                            <span class="drugstore-count">0</span>
+                        </li>
+                    </ul>
+                    <div class="Delivery-place">
+                        <span>配送至:</span>
+                        <select class="loc">
+                            <option value="天津">天津东丽区</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--商品购买-->
+        <div class="column">
+            <div class="container">
+                <div class="column-name">
+                    <div class="checkbox-all-choose" style="width: 133px; height: 43px; ">
+                        <input type="checkbox" name="all-choose" class="all-choose" style="margin-left: 5px;"><span style="margin-left: 8px;">全选</span>
+                    </div>
+                    <div class="goods" style="width: 208px; height: 43px; ">商品</div>
+                    <div class="unit" style="width: 140px; height: 43px; margin-left: 80px; text-align: right">单价</div>
+                    <div class="count" style="width: 70px; height: 43px; text-align: center; margin-left: 80px;"><span>数量</span></div>
+                    <div class="subtotal" style="width: 120px; height: 43px; text-align: right;">小计</div>
+                    <div class="option" style="width: 155px; height: 43px; text-align: center">操作</div>
+                </div>
+                <div class="self-support">
+                    <input type="checkbox" class="JD-self" style="margin-left: 5px;"><div style="display: inline-block; background-color: red;color: #fff;border-radius: 2px;width: 58px;height: 18px;text-align: center;margin-left: 8px;">京东自营</div>
+                </div>
+                <div class="goods-details">
+                    <div class="buy-goods">
+                        <div class="input-goods-check">
+                            <input type="checkbox" class="goods-check">
+                        </div>
+
+                        <div class="goods-img">
+                            <img src="../imgs/goods-detial/goods1-1.jpg" alt="">
+                        </div>
+                        <div class="goods-name">
+                            <div class="goods-name-title" style="overflow: hidden;">
+                                优加 iphone xs max手机壳苹果xs max保护套 卡通防摔软边玻璃壳个性潮
+                            </div>
+                            <div class="goods-name-type">
+                                <div class="color" style="">
+                                <span class="color-text">颜色</span>
+                                <span>可爱鸭【原机玻璃】</span>
+                                </div>
+                                <div class="size">
+                                    <span class="size-text">尺寸</span>
+                                    <span>【6.5英寸】苹果max</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="goods-price">¥45.00</div>
+                        <div class="goods-count">
+                            <div class="sub">-</div>
+                            <div class="input-count">
+                                <input type="text" name="count" class="input-count1" value="1" >
+                            </div>
+                            <div class="add">+</div>
+                        </div>
+                        <div class="goods-subtotal">
+                            <div class="price" style="font-weight: bold">¥45.00</div>
+                            <div class="weight" style="color: #666;">0.08kg</div>
+                        </div>
+                        <div class="goods-option">
+                            <div class="delete">删除</div>
+                            <div class="payment-way">
+                                <select name="payment">
+                                    <option value="货到付款">货到付款</option>
+                                    <option value="在线支付">在线支付</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="settle">
+
+                        <div class="all-choose">
+                            <input type="checkbox" class="all">全选
+                        </div>
+                        <div class="delete-goods">删除选中的商品</div>
+                    <div class="settle-right">
+                        <div class="had-choose">
+                            <span>已选择</span>
+                            <span class="had-choose-count">0</span>
+                            <span>件商品</span>
+                        </div>
+                        <div class="total-price">
+                            <span>总价:</span>
+                            <span class="had-choose-price">¥0.00</span>
+                        </div>
+                        <div class="go-settle">
+                            <a href="settlement%20page.html"><input type="button" value="去结算"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--底部法律信息-->
+        <div class="foot">
+            <div class="container">
+                <iframe src="foot.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 1190px;
+    height: 100%;
+    margin: auto;
+}
+.wrapper .top-nav{
+    width: 100%;
+    height: 30px;
+}
+.top-nav iframe {
+    position: relative;
+    z-index: 1111;
+    width: 100%;
+    margin: auto;
+    height: 30px;
+}
+
+.wrapper .Search{
+    width: 100%;
+    height: 90px;
+}
+.Search .container{
+    position: relative;
+    width: 1190px;
+    height: 90px;
+    margin: auto;
+}
+.container .JD-logo{
+    width: 276px;
+    height: 50px;
+    margin-top: 15px;
+}
+.container .inputSearch{
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    width:  50%;
+    height: 40px;
+}
+.inputSearch .input-search{
+    width: 85%;
+    height: 35px;
+    border: 2px solid red;
+    border-right: none;
+}
+.inputSearch .btn-search{
+    position: relative;
+    left: -5px;
+    width: 60px;
+    height: 39px;
+    background-color: red;
+    color: #fff;
+    border: none;
+}
+.container .myCar{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 140px;
+    height: 36px;
+    background-color: #F9F9F9;
+    font-size: 12px;
+    text-align: center;
+    color: red;
+}
+.myCar .myCar-img{
+    position: relative;
+    top: 10px;
+}
+.myCar .myCar-count{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+}
+.wrapper .top-menu{
+    width: 100%;
+    height: 35px;
+    border-bottom: 5px solid red;
+}
+.top-menu .top-menu-container{
+    position: relative;
+    width: 1190px;
+    height: 35px;
+    margin: auto;
+}
+.top-menu-container .all-goods-type{
+    width: 190px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+
+}
+.top-menu-container .ul-goods-type{
+    position: absolute;
+    top: 0;
+    left: 210px;
+    
+}
+.ul-goods-type li{
+    float: left;
+    margin-left: 20px;
+    height: 33px;
+    line-height: 33px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.ul-goods-type li:hover{
+
+    color: #f00;
+}
+.wrapper .Product-screening{
+    width: 100%;
+    height: 320px;
+}
+.Product-screening .Product-screening-title{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #666675;
+    font-size: 14px;
+    background-color:#F1F1F1;
+}
+.Product-screening-title .goods-name{
+    color: #f00;
+}
+
+.Product-screening .ul-Product-screening-detailed{
+    display: inline-block;
+    /*margin-left: 40px;*/
+    font-size: 13px;
+    color: #666675;
+    /*border: 1px solid black;*/
+}
+.Product-screening .ul-Product-screening-detailed .li-title{
+    width: 50px;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    cursor: text;
+    margin-top: 5px;
+    /*border: 1px solid black;*/
+}
+.Product-screening .ul-Product-screening-detailed .li-classify{
+    width: 120px;
+    float: left;
+    margin-left: 20px;
+    height: 26px;
+    margin-top: 5px;
+    line-height: 26px;
+    cursor: pointer;
+    /*border: 1px solid black;*/
+
+}
+.Product-screening .ul-Product-screening-detailed li:hover{
+    color: red;
+}
+.wrapper .commodity-details{
+    width: 100%;
+    height: 1000px;
+}
+.commodity-details .ordering-method{
+    width: 100%;
+    height: 78px;
+}
+.ordering-method .ul-ordering-method{
+    width: 100%;
+    height: 38px;
+    background-color: #F1F1F1;
+    margin-left: 5px;
+}
+.commodity-details .ul-ordering-method li{
+    width: 55px;
+    float: left;
+    border: 1px solid #ccc;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    background-color: #fff;
+
+}
+.commodity-details .ul-ordering-method .first-method{
+    color: #fff;
+    background-color: red;
+}
+.commodity-details .ordering-method .mode-distribution{
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background-color: #F9F9F9;
+    margin-left: 5px;
+
+}
+.mode-distribution span{
+    font-size: 12px;
+    color: #999;
+    margin-top: 10px;
+}
+.mode-distribution input{
+    width: 15px;
+    height: 15px;
+}
+.mode-distribution .way{
+    font-size: 13px;
+
+}
+.commodity-details .ul-details-goods{
+    width: 100%;
+    height: 1000px;
+}
+.ul-details-goods li{
+    width: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.ul-details-goods li:hover{
+    box-shadow: 0 0 5px #999;
+}
+.li-details-goods .goods-text .price{
+    color: red;
+    font-size: 24px;
+}
+.li-details-goods .goods-text .text-details{
+    height: 54px;
+    line-height: 18px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.li-details-goods .goods-text .text-details:hover{
+    color: red;
+    text-decoration: underline;
+}
+.li-details-goods img{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.wrapper .foot{
+    margin-top: 100px;
+    width: 100%;
+    height: 670px;
+    background-color: #F0F3EF;
+
+}
+.foot iframe{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+}

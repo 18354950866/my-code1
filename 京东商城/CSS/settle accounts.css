@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li{
+    list-style: none;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+input:focus{
+    outline: none;
+}
+.container{
+    position: relative;
+    width: 990px;
+    height: 100%;
+    margin: auto;
+}
+.wrapper .top-nav{
+    width: 100%;
+    height: 30px;
+    background-color: #E3E4E5;
+}
+.top-nav iframe{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .Search{
+    width: 100%;
+    height: 100px;
+}
+.Search .JD-logo{
+    margin-top: 30px;
+}
+.Search .search-wrapper{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 325px;
+    height: 20px;
+}
+.search-wrapper .input-search{
+    width: 270px;
+    height: 24px;
+    border: 2px solid red;
+    border-right: none;
+}
+.search-wrapper .btn-search{
+    position: relative;
+    left: -5px;
+    width: 48px;
+    height: 28px;
+    border: none;
+    background-color: red;
+    color: #fff;
+}
+.wrapper .goods-type{
+    width: 100%;
+    height: 37px;
+}
+.goods-type .goods-type-title{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+}
+.goods-type-title .ul-goods-type{
+    width: 220px;
+    height: 100%;
+}
+.ul-goods-type li{
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+}
+
+.ul-goods-type li:hover{
+    color: #f00;
+    border-bottom: 2px solid red;
+}
+.goods-type .Delivery-place{
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 284px;
+    height: 26px;
+
+}
+.wrapper .column{
+    width: 100%;
+    height: 350px;
+}
+.column .column-name{
+    width: 100%;
+    height: 43px;
+    margin-top: 3px;
+    color: #666;
+    background-color: #F3F3F3;
+    border: 1px solid #e9e9e9;
+    border-top: 0;
+    font-size: 13px;
+    line-height: 43px;
+
+}
+.column .column-name div{
+    float: left;
+}
+.column .self-support{
+    font-size: 13px;
+    margin-top: 10px;
+    height: 30px;
+    border-bottom: 2px solid #666;
+}
+.column .goods-details{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.goods-details .buy-goods{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 980px;
+    height: 190px;
+    margin: auto;
+    cursor: pointer;
+}
+.goods-details .buy-goods div{
+    float: left;
+}
+.buy-goods .goods-img{
+    width: 82px;
+    height: 82px;
+    margin-left: 10px;
+}
+.goods-img img{
+    width: 82px;
+    height: 82px;
+}
+.buy-goods .goods-name {
+    width: 300px;
+    height: 68px;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.goods-name .goods-name-title{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+.goods-name .goods-name-title:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.goods-name .goods-name-type{
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+}
+.goods-name-type div{
+    width: 100%;
+    height: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color: #666;
+    cursor: text;
+}
+.buy-goods .goods-price{
+    width: 190px;
+    height: 70px;
+    margin-left: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+.buy-goods .goods-count{
+    width: 90px;
+    height: 22px;
+    margin-top: 20px;
+    margin-left: 8px;
+    text-align: center;
+}
+.goods-count div{
+    display: inline-block;
+}
+.goods-count .sub{
+    width: 20px;
+    margin-top: 1px;
+    height: 22px;
+    border: 1px solid #666;
+
+}
+.goods-count .input-count{
+    width: 40px;
+    height: 22px;
+
+}
+.input-count .input-count1{
+    margin-top: -1px;
+    width: 38px;
+    height: 22px;
+    border: 1px solid #666;
+    text-align: center;
+}
+.goods-count .add{
+    margin-top: 1px;
+    width:20px;
+    height: 22px;
+    border: 1px solid #666;
+
+}
+.buy-goods .goods-subtotal{
+    width: 140px;
+    height: 65px;
+    margin-left: 20px;
+}
+.goods-subtotal div{
+    width: 100%;
+    height: 32px;
+    display: block;
+    text-align: center;
+    cursor: text;
+}
+.buy-goods .goods-option{
+    width: 80px;
+    height: 65px;
+    margin-left: 5px;
+}
+.goods-option div{
+    width: 100%;
+    height: 32px;
+    text-align: center;
+    color: #666;
+}
+.goods-option .delete:hover{
+    color: #f00;
+    text-decoration: underline;
+}
+.column .settle{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #F1F1F1;
+}
+.column .settle div{
+    display: inline-block;
+}
+.settle .all-choose{
+    width: 54px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.settle .delete-goods{
+    width: 120px;
+    height: 100%;
+    color: #666;
+    cursor: pointer;
+    
+}
+.settle .delete-goods:hover{
+    color: #f00;
+}
+.settle .settle-right{
+    float: right;
+    width: 400px;
+    height: 52px;
+    line-height: 52px;
+}
+.settle-right .had-choose{
+    width: 130px;
+    height: 100%;
+    color: #666;
+}
+.had-choose .had-choose-count{
+    color: #f00;
+}
+.settle-right .total-price{
+    width: 130px;
+    height: 100%;
+    text-align: center;
+    color: #666;
+}
+.total-price .had-choose-price{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f00;
+}
+.settle-right .go-settle{
+    width: 130px;
+    height: 100%;
+}
+.go-settle input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f00;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+.wrapper .foot{
+    margin-top: 100px;
+    width: 100%;
+    height: 630px;
+    background-color: #F0F3EF;
+}
+.foot .container{
+    width: 1190px;
+    height: 100%;
+    margin: auto;
+}
+.foot iframe{
+    width: 100%;
+    height: 100%;
+}

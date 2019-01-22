@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /*border: 1px solid red;*/
+}
+.zww{
+    width: 100%;
+}
+.cd_top{
+    width: 100%;
+    height: 35px;
+    background: #F5F5F5;
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+}
+.cd_top1{
+    width: 75px;
+    height: 100%;
+}
+.cd_top2{
+    width: 90px;
+    height: 100%;
+}
+.ww{
+    width: 1190px;
+    margin: auto;
+}
+.cd_top a:link{
+    color:black;
+    text-decoration: none;
+}
+.cd_top a:visited{
+    color:black;
+    text-decoration: none;
+}
+.cd_top a:hover{
+    color:#FF5500;
+    text-decoration: none;
+}
+.logo_top{
+    width: 100%;
+    height: 60px;
+    background: #FF7700;
+    position: relative;
+    display: flex;
+}
+.logo_top1{
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 15px;
+}
+.logo_top1 a:link{
+    color: white;
+    text-decoration: none;
+}
+.logo_top1 a:visited{
+    color: white;
+    text-decoration: none;
+}
+.logo_top1 a:hover{
+    color: white;
+    text-decoration: none;
+}
+.ww{
+    width: 1190px;
+}
+.bt{
+    width: 160px;
+    background: #F5F5F5;
+}
+.bt1{
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+.bt2{
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.bt3{
+    width: 160px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+.bt0 a:link{
+    color: black;
+    text-decoration: none;
+}
+.bt0 a:visited{
+    color: black;
+    text-decoration: none;
+}
+.bt0 a:hover{
+    color: #FF5500;
+    text-decoration: none;
+}
+.bt2 a:link{
+    color: black;
+    text-decoration: none;
+}
+.bt2 a:visited{
+    color: black;
+    text-decoration: none;
+}
+.bt2 a:hover{
+    color: #FF5500;
+    text-decoration: none;
+}
+.bt3 a:link{
+    color: #FF5500;
+    text-decoration: none;
+}
+.bt3 a:visited{
+    color: #FF5500;
+    text-decoration: none;
+}
+.bt3 a:hover{
+    color: #FF5500;
+    text-decoration: none;
+}
+
+.wp{
+    width: 1030px;
+    height:640px;
+    position: absolute;
+    left: 525px;
+    top: 100px;
+}
+.wp_top{
+    width: 100%;
+    height: 86px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    line-height: 85px;
+}
+.wp_top1{
+    width: 100px;
+    height: 85px;
+}
+.wp_top1{
+    width: 100px;
+    height: 85px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 宋体;
+}
+.wp_top2{
+    width: 100px;
+    height: 85px;
+    font-size: 14px;
+}
+.wp_cd{
+    width: 100%;
+    height: 40px;
+    font-size:14px;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+}
+.wp_cd21{
+    width: 80px;
+    height: 40px;
+    font-size:14px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    line-height: 60px;
+}
+.wp_cd2{
+    width: 110px;
+    height: 40px;
+    border: #999999 1px solid;
+}
+.wp_cd2 a:link{
+    color: black;
+    text-decoration: none;
+}
+.wp_cd2 a:visited{
+    color: black;
+    text-decoration: none;
+}
+.wp_cd2 a:hover{
+    color: #FF5500;
+    text-decoration: none;
+}
+.wp_cd1{
+    width: 990px;
+    height: 60px;
+    border: #999999 1px solid;
+}
+.xl{
+    width: 990px;
+    height: 30px;
+    background: #F5F5F5;
+    position: relative;
+    display: flex;
+}
+.xl1{
+    width: 130px;
+    height: 100%;
+    font-size:14px;
+    text-align: center;
+    line-height: 30px;
+}
+.xl2{
+    width: 180px;
+}
+.js{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.js a:link{
+    color: #999999;
+    text-decoration: none;
+}
+.js a:visited{
+    color: #999999;
+    text-decoration: none;
+}
+.js a:hover{
+    color: #999999;
+    text-decoration: none;
+}

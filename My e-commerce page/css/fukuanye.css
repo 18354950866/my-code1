@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /*border: 1px solid red;*/
+}
+.zww{
+    width: 1190px;
+    margin: auto;
+}
+.gg_top{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.gg1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+}
+.gg2{
+    width: 560px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+}
+.shdz{
+    width: 100%;
+    height: 36px;
+    position: relative;
+    display: flex;
+}
+.shdz1{
+    width: 90px;
+    height: 100%;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 36px;
+}
+.shdz2{
+    width: 100px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 36px;
+}
+.shdz2 a:link{
+    text-decoration: none;
+}
+.shdz2 a:visited{
+    color: #2288EE;
+    text-decoration: none;
+}
+.shdz2 a:hover{
+    color: #FF5500;
+    text-decoration: none;
+}
+.xz{
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 40px;
+    font-weight: bold;
+    background: #F8F8F8;
+}
+.psfs{
+    width: 100%;
+    height: 17px;
+    font-size: 13px;
+    text-align: right;
+    position: relative;
+    display: flex;
+}
+.psfs1{
+    width: 80px;
+    height: 100%;
+}
+.psfs2{
+    width: 100px;
+    height: 100%;
+}
+.psfs3{
+    width: 100px;
+    height: 100%;
+}
+.mf{
+    width: 40px;
+    height: 100%;
+    color: white;
+    background: #FF5500;
+}
+.psfs4{
+    width: 320px;
+    height: 100%;
+    color: #999999;
+}
+.shr{
+    width: 100%;
+    height: 30px;
+    font-size: 13px;
+    text-align: right;
+    line-height: 30px;
+    position: relative;
+    display: flex;
+}
+.shr1{
+    width: 80px;
+    height: 100%;
+}
+.shr2{
+    width: 200px;
+    height: 100%;
+    text-align: right;
+}
+.zf1{
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 30px;
+    position: relative;
+    display: flex;
+}
+.spxx{
+    width: 100%;
+    height: 40px;
+    font-size: 13px;
+    position: relative;
+    display: flex;
+    background: #F8F8F8;
+}
+.spxx1{
+    width: 400px;
+    height: 100%;
+    text-align: left;
+    line-height: 40px;
+}
+.spxx2{
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+}
+.spxx3{
+    width: 400px;
+    height: 100%;
+    line-height: 40px;
+    position: relative;
+    display: flex;
+}
+.myf{
+   width: 1187px;
+    height: 50px;
+    text-align: right;
+    line-height: 50px;
+    border: 1px solid #EBEAE6;
+}
+.jsxx{
+    width: 100%;
+    height: 245px;
+}
+.jsje{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.jsje1{
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
+    color: #999999;
+    position: absolute;
+    right: 150px;
+    top: 23px;
+}
+.jsje2{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF9900;
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+.jieshu{
+    width: 100%;
+    height: 30px;
+}
+.warm{
+    text-align: right;
+}
+.warm span{
+    font-size: 14px;
+    color: #FF9900;
+}
+.warm input{
+    width: 105px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    background: #FF9900;
+    color: white;
+}

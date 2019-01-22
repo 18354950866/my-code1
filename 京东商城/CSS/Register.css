@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+input:focus{
+    outline: none;
+
+}
+.wrapper .top{
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 10px #F2F2F2 ;
+}
+.top .top-container{
+    position: relative;
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.top-container .JD-logo{
+    position: absolute;
+    top: 20px;
+    width: 160px;
+    height: 50px;
+    cursor: pointer;
+
+}
+.top-container .JD-logo img{
+    width: 100%;
+    height: 100%;
+}
+.top-container .welcome-register{
+    position: absolute;
+    left: 180px;
+    top: 28px;
+    width: 96px;
+    height: 34px;
+    font-size: 24px;
+    line-height: 34px;
+}
+.top-container .goLogin{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    color: #A69FAE;
+}
+.goLogin span:hover{
+    text-decoration: underline;
+}
+.wrapper .message{
+    position: relative;
+    width: 100%;
+    height: 572px;
+}
+.message form{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 400px;
+    height: 516px;
+}
+form .input{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 32px;
+}
+form .title{
+    width: 87px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+form .input-message{
+    width: 210px;
+    height: 100%;
+    border: none;
+    vertical-align: middle;
+}
+form .email-validation div{
+    display: inline-block;
+
+}
+form .email-validation{
+    width: 100%;
+    height: 46px;
+    overflow: hidden;
+}
+.email-validation input{
+    width: 172px;
+    height: 46px;
+    border: none;
+    margin-left: 5px;
+}
+.email-validation .get-email-validation{
+    width: 128px;
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+}
+.get-email-validation:hover{
+    border: 1px solid #ddd;
+}
+form .Register-now{
+    background-color: red;
+    height: 54px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.wrapper .bottom{
+    width: 100%;
+    height: 630px;
+    background-color: #F0F3EF;
+}
+.bottom iframe{
+    width: 100%;
+    height: 100%;
+
+}

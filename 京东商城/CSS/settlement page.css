@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 990px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.wrapper .top-nav{
+    width: 100%;
+    height: 30px;
+    background-color: #E3E4E5;
+}
+.top-nav iframe{
+    width: 100%;
+    height: 100%;
+}
+.wrapper .JD-logo{
+    width: 100%;
+    height: 50px;
+}
+.JD-logo .logo-img{
+    width: 250px;
+    height: 100%;
+    margin-top: 20px;
+}
+.logo-img .JD-img{
+    width: 134px;
+    height: 40px;
+}
+.logo-img .settle-img{
+    position: relative;
+    top: 5px;
+    width: 100px;
+    height: 40px;
+}
+.wrapper .order-information{
+    width: 100%;
+    height: 770px;
+    margin-top: 50px;
+}
+.order-information .title{
+    color: #666;
+    font-size: 16px;
+}
+.order-information .recipients-message{
+    position: relative;
+    width: 100%;
+    height: 720px;
+}
+.recipients-message .recipients{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #F2F2F2;
+}
+.recipients .title{
+    width: 960px;
+    color: #000;
+    font-weight: bold;
+    margin: 10px auto auto;
+
+}
+.recipients .title div{
+    display: inline-block;
+}
+.recipients .title .add-location{
+    float: right;
+    color: #00f;
+    font-weight: normal;
+}
+.recipients .recipients-nameAndLoc{
+    width: 910px;
+    height: 30px;
+    margin: 10px auto auto;
+}
+.recipients-nameAndLoc .recipients-name{
+    width: 144px;
+    height: 100%;
+    border: 2px solid red;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+.recipients-nameAndLoc .recipients-location{
+    height: 30px;
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+}
+.recipients-message .payment{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #f2f2f2;
+}
+.payment-way div{
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    border: 1px solid #dddddd;
+}
+.payment-way div:hover{
+    border: 1px solid red;
+}
+.wrapper .consignment-invoice{
+
+    width: 100%;
+    height: 320px;
+}
+.consignment-invoice .distribution-way{
+    margin-left: 20px;
+    width: 330px;
+    height: 270px;
+    background-color: #F7F7F7;
+}
+.distribution-way .distribution-way-title{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.distribution-way .way{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 145px;
+    height: 30px;
+    border:1px solid #e4393c;
+    text-align: center;
+    line-height: 30px;
+}
+.distribution-way .send-time{
+    border-bottom: 1px solid #666666;
+    margin-top: 25px;
+}
+.distribution-way .returnAndchange{
+    margin-top: 25px;
+}
+.consignment-invoice .merchandise-news{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 620px;
+    height: 270px;
+    background-color: #F3FBFE;
+}
+.merchandise-news .merchandise-news-wrapper{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    width: 600px;
+    height: 250px;
+    margin: auto;
+}
+.merchandise-news-wrapper .goods-img{
+    display: inline-block;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+}
+.goods-img img{
+    width: 100%;
+    height: 100%;
+}
+.merchandise-news-wrapper .goods-content{
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    width: 240px;
+    height: 80px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.merchandise-news-wrapper .goods-price{
+    position: absolute;
+    top: 25px;
+    left: 340px;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    color: #f00;
+    text-align: center;
+}
+.merchandise-news-wrapper .goods-count{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    text-align: center;
+}
+.merchandise-news-wrapper .leave-message{
+    margin-top: 30px;
+    width: 580px;
+    height: 35px;
+    line-height: 35px;
+
+}
+.leave-message span{
+    margin-left: 20px;
+}
+.leave-message input{
+    width: 500px;
+    height: 30px;
+    border: 1px solid #666666;
+    margin-left: 10px;
+}
+.leave-message input:focus{
+    outline: none;
+}
+.recipients-message .submit-order{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+.submit-order .submit-order-total{
+    width: 970px;
+    height: 70px;
+    text-align: right;
+    margin-right: 5px;
+}
+.submit-order .amount-payable{
+    width: 970px;
+    height: 80px;
+    text-align: right;
+    background-color: #F4F4F4;
+}
+.amount-payable .sendTo-loc{
+    margin-top: 20px;
+    margin-right: 8px;
+    font-size: 13px;
+    color: #666;
+}
+.submit-order .btn-submit-order{
+    position: absolute;
+    margin-top: 10px;
+    right: 20px;
+    width: 135px;
+    height: 36px;
+}
+.btn-submit-order input{
+    width: 100%;
+    height: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 18px;
+    border: none;
+
+}
+.wrapper .foot{
+    margin-top: 50px;
+    width: 100%;
+    height: 630px;
+    background-color: #F0F3EF;
+}
+.foot .container{
+    width: 1190px;
+    height: 100%;
+}
+.foot iframe{
+    width: 100%;
+    height: 100%;
+}

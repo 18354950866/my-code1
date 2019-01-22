@@ -1,0 +1,214 @@
+div {
+  border: 0px red solid;
+  height: 1000px;
+  float: left;
+  display: inline;
+}
+#zwv{
+  height: 1500px;
+  background-color: blanchedalmond;
+}
+.logo {
+  height: 120px;
+  width: 100%;
+  background: linear-gradient(to right, #DD1C21 0%, #CF0D12 25%, #A1000D 100%);
+}
+
+#logo_img {
+  height: 120px;
+  position: absolute;
+  left: 25%;
+}
+
+.input {
+  width: 425px;
+  height: 36px;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  border-radius: 5px;
+  border-color: white;
+}
+
+.input_button {
+  width: 60px;
+  height: 36px;
+  position: absolute;
+  left: 60%;
+  top: 5%;
+  border-radius: 5px;
+  background-color: rgb(207, 13, 18);
+  border-color: white;
+}
+
+.bq {
+  height: 22px;
+  position: absolute;
+  right: 20%;
+  top: 6%;
+  color: white;
+  font-family: 黑体;
+}
+
+.bqa {
+  width: 1000px;
+  height: 28px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 黑体;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  background-color: white;
+}
+
+.bqb {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  top: 13%;
+  text-align: center;
+  background-color: white;
+}
+
+.bqc {
+  width: 800px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 微软雅黑;
+  position: absolute;
+  top: 24%;
+  left: 30%;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.bqd {
+  width: 800px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 微软雅黑;
+  position: absolute;
+  top: 77%;
+  left: 30%;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.img1{
+  width: 440px;
+  height: 317px;
+  position: relative;
+  top: 14%;
+}
+.img2{
+  width: 992px;
+  height: 317px;
+  position: relative;
+  top: 14%;
+}
+.img3{
+  width: 436px;
+  height: 317px;
+  position: relative;
+  top: 14%;
+}
+.bqe {
+  height: 22px;
+  position: absolute;
+  right: 20%;
+  top: 780px;
+  font-family: 黑体;
+  font-size: small;
+  color:#555555;
+}
+.bqf{
+  width: 1000px;
+  height: 190px;
+  position: relative;
+  top: 25%;
+  left: 550px;
+  background-color: white;
+  font-family: 微软雅黑;
+  font-size: small;
+}
+.bqg{
+  width: 950px;
+  height: 120px;
+  position: relative;
+  top: 15%;
+  left: 25px;
+  background-color: white;
+}
+.bqh {
+  width: 950px;
+  height: 30px;
+  font-size: 14px;
+  position: relative;
+  top:-30%;
+  background-color: rgba(255, 255, 255,0.3);
+  /*颜色透明度*/
+}
+.bqi {
+  width: 116px;
+  height: 30px;
+;
+  font-size: 14px;
+  position: relative;
+}
+.bqj {
+  width: 800px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 微软雅黑;
+  position: absolute;
+  top: 110%;
+  left: 550px;
+  text-align: center;
+}
+.bqj1 {
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+  font-family: 微软雅黑;
+  position: absolute;
+  top: 60%;
+  left: 800px;
+  text-align: center;
+}
+.bqaa{
+  width: 1008px;
+  height: 800px;
+  position: absolute;
+  top: 120%;
+  left: 550px;
+}
+.bqab{
+  width: 250px;
+  height: 400px;
+}
+li {
+  float: left;
+  list-style: square;
+}
+.ab6{
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 2020px;
+  left: 10px;
+  background-color: #3F3A32;
+}
+.tu{
+  position: absolute;
+  left: 28%;
+}
+.abac{
+  width: 100%;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top: 230%;
+  left: 10px;
+  background-color:#3F3A32;
+  font-family: 黑体;
+  font-size: 14px;
+}
